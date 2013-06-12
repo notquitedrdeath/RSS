@@ -23,6 +23,7 @@
 		C3576AF5175AD7FE008B2600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3576AD0175AD7FC008B2600 /* Foundation.framework */; };
 		C3576AFD175AD7FE008B2600 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3576AFB175AD7FE008B2600 /* InfoPlist.strings */; };
 		C3576B00175AD7FE008B2600 /* RSSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3576AFF175AD7FE008B2600 /* RSSTests.m */; };
+		C3576B0B175AD878008B2600 /* RSSFeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3576B0A175AD878008B2600 /* RSSFeedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		C3576AFC175AD7FE008B2600 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3576AFE175AD7FE008B2600 /* RSSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSTests.h; sourceTree = "<group>"; };
 		C3576AFF175AD7FE008B2600 /* RSSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSTests.m; sourceTree = "<group>"; };
+		C3576B09175AD878008B2600 /* RSSFeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedView.h; sourceTree = "<group>"; };
+		C3576B0A175AD878008B2600 /* RSSFeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		C3576AD4175AD7FD008B2600 /* RSS */ = {
 			isa = PBXGroup;
 			children = (
+				C3576B09175AD878008B2600 /* RSSFeedView.h */,
+				C3576B0A175AD878008B2600 /* RSSFeedView.m */,
 				C3576ADD175AD7FD008B2600 /* AppDelegate.h */,
 				C3576ADE175AD7FD008B2600 /* AppDelegate.m */,
 				C3576AE6175AD7FD008B2600 /* ViewController.h */,
@@ -273,6 +278,7 @@
 				C3576ADB175AD7FD008B2600 /* main.m in Sources */,
 				C3576ADF175AD7FD008B2600 /* AppDelegate.m in Sources */,
 				C3576AE8175AD7FD008B2600 /* ViewController.m in Sources */,
+				C3576B0B175AD878008B2600 /* RSSFeedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
